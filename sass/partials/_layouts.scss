@@ -1,0 +1,188 @@
+@import "./tipografia";
+@import "./mediaqueris";
+
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    width: 100%;
+
+    &__formulario {
+        padding: 2rem 2rem 3rem 2rem;
+        border: pink dashed;
+        margin-bottom: 4rem;
+    }
+
+    &__texto {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+}
+.cuidados {
+    display: block;
+    color: purple;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+    @include font-size(2rem, 1.25rem);
+
+    @include movil {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    @include tablet {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    &__titulo {
+        text-align: center;
+        padding-bottom: 2rem;
+        color: $colorUno;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    &__lista {
+        padding: 1rem;
+    }
+    
+    &__lista__fin {
+        padding-bottom: 4rem;
+    }
+}
+
+
+.destacados {
+    
+    color: purple;
+    padding: 2rem 2rem 6rem 2rem;
+    
+    >ul {
+        display: block;
+        list-style: none;
+    }
+}
+
+.diseños {
+    display: block;
+    color: purple;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+    @include font-size(2rem, 1.25rem);
+    
+    @include movil {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    @include tablet {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    &__titulo {
+        text-align: center;
+        color: $colorUno;
+        padding-bottom: 2rem;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    &__titulo__dos {
+        text-align: center;
+        padding-bottom: 2rem;
+        color: purple;
+    }
+    
+    &__lista {
+        list-style: none;
+    }
+    
+    &__lista__uno {
+        padding: 0.5rem;
+    }
+    
+    &__lista__dos {
+        padding-top: 2rem;
+        text-align: center;
+    }
+    
+    &__lista__tres {
+        padding-bottom: 4rem;
+        text-align: center;
+        
+    }
+    
+}
+
+.favoritos {
+    color: purple;
+    padding: 0 2rem 6rem 2rem;
+}
+
+.novedades {
+    color: purple;
+    padding: 0 2rem 6rem 2rem;
+}
+
+.tituloContacto {
+    color: $colorUno;
+    padding-top: 3rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.productos {
+    color: $colorUno;
+    display: block;
+    text-align: center;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.productos__subTitulos {
+    font-size: 2rem;
+    color: purple;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.productos__fondo {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+
+.productos__centrado {
+   
+    display: flex;
+    justify-content: center;
+    
+    @include movil {
+        padding-top: 1rem;
+    }
+}
