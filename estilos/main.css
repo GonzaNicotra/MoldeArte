@@ -8,7 +8,8 @@
   border-radius: 20%; }
   @media screen and (max-width: 768px) {
     .bordesRedondos {
-      height: 200px; } }
+      height: 200px;
+      width: 200px; } }
 
 .centrar {
   display: flex;
