@@ -11,13 +11,15 @@
 
     &__formulario {
         padding: 2rem 2rem 3rem 2rem;
-        border: pink dashed;
+        border: purple solid 2px;
         margin-bottom: 4rem;
+        box-shadow: 5px 5px 0 purple;
     }
 
     &__texto {
         padding-top: 2rem;
         padding-bottom: 2rem;
+        
     }
     
 }

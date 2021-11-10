@@ -82,8 +82,9 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   width: 100%; }
   .contacto__formulario {
     padding: 2rem 2rem 3rem 2rem;
-    border: pink dashed;
-    margin-bottom: 4rem; }
+    border: purple solid 2px;
+    margin-bottom: 4rem;
+    box-shadow: 5px 5px 0 purple; }
   .contacto__texto {
     padding-top: 2rem;
     padding-bottom: 2rem; }
