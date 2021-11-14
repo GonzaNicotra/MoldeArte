@@ -47,7 +47,7 @@
   color: azure; }
 
 #fuenteTitulos {
-  color: purple;
+  color: black;
   font-family: "Lora", serif;
   padding: 2rem 2rem 1rem 2rem;
   text-align: center;
@@ -91,7 +91,7 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
 
 .cuidados {
   display: block;
-  color: purple;
+  color: black;
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 2rem;
@@ -110,7 +110,7 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   .cuidados__titulo {
     text-align: center;
     padding-bottom: 2rem;
-    color: #cc99cc;
+    color: black;
     font-size: 3rem;
     font-weight: bold; }
   .cuidados__lista {
@@ -122,6 +122,8 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
       padding-right: 1rem;
       padding-left: 1rem; }
       .cuidados__lista {
+        font-size: 1.2rem; }
+      .cuidados__lista__fin {
         font-size: 1.2rem; } }
   @media screen and (max-width: 768px) {
     .cuidados {
@@ -129,7 +131,7 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
       padding-right: 2rem; } }
 
 .destacados {
-  color: purple;
+  color: black;
   padding: 2rem 2rem 6rem 2rem; }
   .destacados > ul {
     display: block;
@@ -137,7 +139,7 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
 
 .diseños {
   display: block;
-  color: purple;
+  color: black;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2rem;
@@ -156,21 +158,29 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   @media screen and (max-width: 480px) {
     .diseños {
       padding-right: 1rem;
-      padding-left: 1rem; } }
+      padding-left: 1rem; }
+      .diseños__titulo__dos {
+        font-size: 1.5rem; }
+      .diseños__lista__uno {
+        font-size: 1.2rem; }
+      .diseños__lista__dos {
+        font-size: 1.5rem; }
+      .diseños__lista__tres {
+        font-size: 1.5rem; } }
   @media screen and (max-width: 768px) {
     .diseños {
       padding-left: 2rem;
       padding-right: 2rem; } }
   .diseños__titulo {
     text-align: center;
-    color: #cc99cc;
+    color: black;
     padding-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold; }
   .diseños__titulo__dos {
     text-align: center;
     padding-bottom: 2rem;
-    color: purple; }
+    color: black; }
   .diseños__lista {
     list-style: none; }
   .diseños__lista__uno {
@@ -183,15 +193,15 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
     text-align: center; }
 
 .favoritos {
-  color: purple;
+  color: black;
   padding: 0 2rem 6rem 2rem; }
 
 .novedades {
-  color: purple;
+  color: black;
   padding: 0 2rem 6rem 2rem; }
 
 .tituloContacto {
-  color: #cc99cc;
+  color: black;
   padding-top: 3rem;
   font-weight: bold;
   display: block;
@@ -199,7 +209,7 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   font-size: 3rem; }
 
 .productos {
-  color: #cc99cc;
+  color: black;
   display: block;
   text-align: center;
   padding-left: 2rem;
@@ -212,7 +222,7 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
 
 .productos__subTitulos {
   font-size: 2rem;
-  color: purple;
+  color: black;
   font-weight: bold;
   padding-left: 2rem; }
 
