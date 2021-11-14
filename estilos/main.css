@@ -107,14 +107,6 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   @media (min-width: 1024px) {
     .cuidados {
       font-size: 1.25rem; } }
-  @media screen and (max-width: 480px) {
-    .cuidados {
-      padding-right: 1rem;
-      padding-left: 1rem; } }
-  @media screen and (max-width: 768px) {
-    .cuidados {
-      padding-left: 2rem;
-      padding-right: 2rem; } }
   .cuidados__titulo {
     text-align: center;
     padding-bottom: 2rem;
@@ -125,6 +117,16 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
     padding: 1rem; }
   .cuidados__lista__fin {
     padding-bottom: 4rem; }
+  @media screen and (max-width: 480px) {
+    .cuidados {
+      padding-right: 1rem;
+      padding-left: 1rem; }
+      .cuidados__lista {
+        font-size: 1.2rem; } }
+  @media screen and (max-width: 768px) {
+    .cuidados {
+      padding-left: 2rem;
+      padding-right: 2rem; } }
 
 .destacados {
   color: purple;

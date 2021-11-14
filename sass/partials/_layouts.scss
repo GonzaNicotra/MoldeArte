@@ -36,16 +36,7 @@
 
     @include font-size(2rem, 1.25rem);
 
-    @include movil {
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-
-    @include tablet {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
+    
     &__titulo {
         text-align: center;
         padding-bottom: 2rem;
@@ -60,6 +51,19 @@
     
     &__lista__fin {
         padding-bottom: 4rem;
+    }
+
+    @include movil {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        &__lista {
+            font-size: 1.2rem;
+        }
+    }
+
+    @include tablet {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
