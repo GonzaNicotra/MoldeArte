@@ -37,10 +37,25 @@
     &__orden-dos {
         padding-right: 1rem;
     }
+    
+    &__titulo {
+        color: rgba(73, 73, 73, 0.815);
+        padding-top: 3rem;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        font-size: 3rem;
+        
+    }
+
+
+
 }
+
+
 .cuidados {
     display: block;
-    color: black;
+    color: rgba(73, 73, 73, 0.815);
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 2rem;
@@ -55,7 +70,7 @@
     &__titulo {
         text-align: center;
         padding-bottom: 2rem;
-        color: black;
+        color: rgba(73, 73, 73, 0.815);;
         font-size: 3rem;
         font-weight: bold;
     }
@@ -99,7 +114,7 @@
 
 .diseños {
     display: block;
-    color: black;
+    color: rgba(73, 73, 73, 0.815);
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
@@ -134,7 +149,7 @@
     
     &__titulo {
         text-align: center;
-        color: black;
+        color: rgba(73, 73, 73, 0.815);
         padding-bottom: 2rem;
         font-size: 2.5rem;
         font-weight: bold;
@@ -143,7 +158,7 @@
     &__titulo__dos {
         text-align: center;
         padding-bottom: 2rem;
-        color: black;
+        color: rgba(73, 73, 73, 0.815);
     }
     
     &__lista {
@@ -173,12 +188,12 @@
 }
 
 .inicio {
-    color: black;
+    color: white;
     text-align: center;
     padding: 4rem 2rem 3rem 2rem;
     font-weight: bold;
     font-size: 2rem;
-    background-color: pink;
+    background-color: #d368c5d3;
 }
 
 .novedades {
@@ -186,18 +201,8 @@
     padding: 0 2rem 6rem 2rem;
 }
 
-.tituloContacto {
-    color: black;
-    padding-top: 3rem;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    font-size: 3rem;
-    
-}
-
 .productos {
-    color: black;
+    color: rgba(73, 73, 73, 0.815);
     display: block;
     text-align: center;
     padding-left: 2rem;
@@ -207,14 +212,12 @@
     margin-right: 4rem;
     font-size: 3rem;
     font-weight: bold;
-    @include movil {
-        text-align: center;
-    }
+    
 }
 
 .productos__subTitulos {
     font-size: 2rem;
-    color: black;
+    color: rgba(73, 73, 73, 0.815);
     font-weight: bold;
     padding-left: 2rem;
 }
@@ -236,7 +239,7 @@
 }
 
 .productos__texto {
-    color: black;
+    color: rgba(73, 73, 73, 0.815);
     text-align: center;
     padding: 1rem 2rem 5rem 2rem;
     font-weight: bold;
