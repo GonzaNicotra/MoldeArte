@@ -208,6 +208,14 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   color: black;
   padding: 0 2rem 6rem 2rem; }
 
+.inicio {
+  color: black;
+  text-align: center;
+  padding: 4rem 2rem 3rem 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: pink; }
+
 .novedades {
   color: black;
   padding: 0 2rem 6rem 2rem; }
@@ -231,6 +239,9 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   margin-right: 4rem;
   font-size: 3rem;
   font-weight: bold; }
+  @media screen and (max-width: 480px) {
+    .productos {
+      text-align: center; } }
 
 .productos__subTitulos {
   font-size: 2rem;
@@ -248,6 +259,13 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   @media screen and (max-width: 480px) {
     .productos__centrado {
       padding-top: 1rem; } }
+
+.productos__texto {
+  color: black;
+  text-align: center;
+  padding: 1rem 2rem 5rem 2rem;
+  font-weight: bold;
+  font-size: 2rem; }
 
 .carruselFotos {
   height: 300px; }
