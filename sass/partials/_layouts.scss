@@ -12,6 +12,7 @@
     &__formulario {
         padding: 2rem 2rem 3rem 2rem;
         border: purple solid 2px;
+        border-radius: 10px;
         margin-bottom: 4rem;
         box-shadow: 5px 5px 0 purple;
     }
@@ -21,7 +22,21 @@
         padding-bottom: 2rem;
         
     }
-    
+    &__detalle {
+        border-radius: 10px;
+        border:pink solid 2px;
+        background-color: pink;
+        box-shadow: 1px 1px black;
+    }
+    &__letra {
+        font-weight: bold;
+    }
+    &__orden {
+        padding-bottom: 1rem;
+    }
+    &__orden-dos {
+        padding-right: 1rem;
+    }
 }
 .cuidados {
     display: block;
