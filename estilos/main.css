@@ -16,19 +16,19 @@
   justify-content: center; }
 
 .fondo {
-  background-color: #cc99cc; }
+  background-color: #d368c5d3; }
 
 .fondoUno {
-  background-color: #cc99cc;
+  background-color: #d368c5d3;
   border-radius: 15%;
   height: 3rem;
   width: 5rem;
-  border-color: #cc99cc;
+  border-color: #d368c5d3;
   color: white;
   font-weight: bold; }
 
 .fondoDos {
-  background-color: rgba(223, 126, 193, 0.39);
+  background-color: rgba(223, 126, 192, 0.5);
   padding-bottom: 2rem;
   padding-top: 2rem; }
 
@@ -277,7 +277,7 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   padding-right: 2rem; }
 
 .menu {
-  background-color: #cc99cc; }
+  background-color: #d368c5d3; }
 
 .menu__logo {
   margin: 1.25rem 4rem 2rem 4rem;
