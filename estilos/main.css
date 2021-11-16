@@ -11,6 +11,9 @@
       height: 200px;
       width: 200px; } }
 
+.bordesCombos {
+  border-radius: 20%; }
+
 .centrar {
   display: flex;
   justify-content: center; }
@@ -280,12 +283,15 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   background-color: #d368c5d3; }
 
 .menu__logo {
-  margin: 1.25rem 4rem 2rem 4rem;
+  margin: 1.25rem 3rem 2rem 4rem;
   padding-right: 4rem;
   max-width: 100%;
   max-height: 5.125rem;
   padding-left: 1.25rem;
   padding-top: 2rem; }
+  @media screen and (max-width: 480px) {
+    .menu__logo {
+      max-height: 6rem; } }
 
 /*
 créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
