@@ -291,7 +291,8 @@ créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
   padding-top: 2rem; }
   @media screen and (max-width: 480px) {
     .menu__logo {
-      max-height: 6rem; } }
+      max-height: 6rem;
+      margin-right: auto; } }
 
 /*
 créditos del mixin: https://codepen.io/jakob-e/pen/yVyYzv
